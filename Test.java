@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Test
 {
 
-    private static int numE;
+    //private static int numE;
     private static Scanner sc = new Scanner(System.in);
     static String res = "";
     public static void main(String[] args) {
