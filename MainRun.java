@@ -3,12 +3,10 @@ import java.util.*;
 import java.io.*;
 import java.util.Scanner;
 
-public class Test
+public class MainRun
 {
 
-    //private static int numE;
-    //private static Scanner sc = new Scanner(System.in);
-    //static String res = "";
+
     private static double rates[] = {.901957, //USD - EUR
                               109.336, //USD - JPY
                               1.10870, //EUR - USD
@@ -55,6 +53,7 @@ public class Test
                     break;
                 
                 case "q":
+                    inp.close();
                     break;
 
                 default:
